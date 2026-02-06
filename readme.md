@@ -115,6 +115,7 @@ classroom_monitoring_system_main_complete_project/
 ├── dataset/ # Student face image dataset
 ├── encodings/ # Generated face encodings
 └── database.db # SQLite database
+
 ✨ Features
 
 ✅ Secure user authentication (Login & Registration)
