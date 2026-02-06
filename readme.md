@@ -92,31 +92,29 @@ CSS
 
 JavaScript
 
-📁 Project Structure
 classroom_monitoring_system_main_complete_project/
 │
-├── app.py                     # Main Flask application
-├── create_dataset.py          # Capture student facial images
-├── encode_faces.py            # Generate facial encodings
-├── requirements.txt           # Project dependencies
+├── app.py # Main Flask application
+├── create_dataset.py # Capture student facial images
+├── encode_faces.py # Generate facial encodings
+├── requirements.txt # Project dependencies
 │
 ├── static/
-│   ├── css/                   # Stylesheets
-│   ├── js/                    # JavaScript files
-│   └── images/                # Saved frames / screenshots
+│ ├── css/ # Stylesheets
+│ ├── js/ # JavaScript files
+│ └── images/ # Saved frames / screenshots
 │
 ├── templates/
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   ├── livestream.html
-│   ├── timetable.html
-│   └── reports.html
+│ ├── login.html
+│ ├── register.html
+│ ├── dashboard.html
+│ ├── livestream.html
+│ ├── timetable.html
+│ └── reports.html
 │
-├── dataset/                   # Student face image dataset
-├── encodings/                 # Generated face encodings
-└── database.db                # SQLite database
-
+├── dataset/ # Student face image dataset
+├── encodings/ # Generated face encodings
+└── database.db # SQLite database
 ✨ Features
 
 ✅ Secure user authentication (Login & Registration)
